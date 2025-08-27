@@ -58,8 +58,9 @@ int main() {
     a1.image("logo.jpg");
     a1.text("It can store multiple lines of text");
 
-    // process + save
+    // process 
     a1.render();
+   // save
     a1.save();
 
     // print on console too
